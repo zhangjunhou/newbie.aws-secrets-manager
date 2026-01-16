@@ -1,5 +1,5 @@
 import { GetSecretValueCommand } from '@aws-sdk/client-secrets-manager';
-import { RotationEvent, smClient, RotationStrategy } from './strategies/common.js';
+import { RotationEvent, smClient, RotationStrategy } from './common.js';
 import { AwsApiKeyStrategy } from './strategies/aws-api-key.js';
 import { RdsMysqlStrategy } from './strategies/mysql.js';
 import { RdsPostgresStrategy } from './strategies/postgres.js';
